@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9)0,rgba(0, 0, 0, 0.5) 60%,rgba(0,0,0,0.9)100%),url(images/mainimg.jpg);
+    background-size: 110%;
+    background-position:  bottom center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid;
+    padding: 7px 10px;
+}
+.lang-btn-img{
+    width: 10px;
+    margin-left: 10px;
+}
+header.header-content{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header-content h2{
+    margin-top:200px ;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: 300px;
+}
+.header-content h3{
+    font-size: 25px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.header-content p{
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.email-signup{
+    display: flex;
+    margin-top: 30px;
+    height: 55px;
+    margin-left: 250px;
+    margin-right: 270px;
+}
+.email-signup input{
+    flex: 1;
+    color: #fff;
+    margin-right: 10px;
+    border:1px solid #928e8e;
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgba(26, 26, 26, 0.6);
+}
+
+.email-signup button{
+    background-color: rgb(229, 9, 20);
+    border: 0;
+    outline: 0;
+    width: 190px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.email-signup label{
+    padding:15px;
+    color: #c7c2c2;
+}
+
+.features{
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis:40%;
+    margin-bottom:20px;
+    margin-left: 65px;
+}
+.img-col{
+    flex-basis:45%;
+    margin-bottom:20px;
+}
+.img-col img{
+    display:block;
+    width:90%;
+    margin:auto;
+}
+.features h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq{
+    padding:10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.faq h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.accordion{
+    margin-left: -10px ;
+    width: 100%;
+    max-width: 1100px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 90px;
+    font-size: 22px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+}
+input[type='radio']{
+    display: none;
+}
+.faq h3{
+    margin-top: 50px;
+}
+.faq .email-signup{
+    margin-bottom: 60px;
+}
+.faq .email-signup input{
+    color: #fff;
+    margin-left: -50px;
+    margin-right: 10px;
+}
+.faq .email-signup button{
+    margin-right: -80px;
+
+}
+.end-content{
+    display: flex;
+}
+
+h4{
+    font-size: 17px;
+    color: #c7c2c2;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.end-content ul{
+    
+    color: #c7c2c2;
+    font-size: 17px;
+    margin-top: 60px;
+    margin-left: 150px;
+    list-style: none;
+}
+.end-content ul li{
+    margin-top: 20px;
+}
+
+.divider{
+    width: 100%;
+    height: 9px;
+    background-color: #232323;
+}
+.end-btn{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.end-btn button {
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    background: #0e0d0d;
+    border: 1px solid #666565;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.end-btn p{
+    margin-top: 20px;
+    color: #969494;
+}
